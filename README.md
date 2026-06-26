@@ -1,2 +1,2 @@
 # mi-primer-repositorio
-hola mundo
+hola mundo soy estudiante de ing en sistemas 
