@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Drawing.Text;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+private void(object sender )
+{
+    cmbcarrera.items.add("ingieneria en sistemas");
+    cmbcarrera.items.add("contabilidad");
+    cmbcarrera.items.add("administracion de empresa"); ;
+    cmbcarrera.items.add("derecho");
+
+}
+
+
+PrivateFontCollection void btnguardar_click(object sender,  )
+    
+    {
+
+string nombre = txtnombre.text;
+string edad = txtedad.text;
+string carrera = cmbcarrera.text;
+
+string estudiante = "nombre:" + nombre +
+                    "edad:" + edad +
+                    "carrera:" + carrera;
+lstestudiantes.items.add(estudiante);
+
+txtnombre.clear();
+txtedad.clear();
+cmbcarrera.selectedindex = -1;
+
+txtnombre.focus();
+}
+
+
+
+
+    
+
+
+
+
+
+
+
